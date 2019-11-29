@@ -36,3 +36,12 @@ C:\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\bin\Debug\DateHa
 C:\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\bin\Debug\DateHandling.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\bin\Debug\DateHandling.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\bin\Debug\DateHandling.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.Form1.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\DateHandling\DateHandling\obj\Debug\DateHandling.csproj.GenerateResource.Cache

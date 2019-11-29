@@ -42,8 +42,9 @@ namespace FutureValue
                     txtMonthlyInvestment.Focus();
 
                     // TODO: Add the calculation to the rectangular array here
+                    decimal interestRateYearlyPercent = interestRateYearly / 100;
                     rectanArray[rowIdx, 0] = String.Format("{0:c2}", monthlyInvestment);
-                    rectanArray[rowIdx, 1] = interestRateYearly.ToString("p2");
+                    rectanArray[rowIdx, 1] = interestRateYearlyPercent.ToString("p2");
                     rectanArray[rowIdx, 2] = String.Format("{0:d0}", years);
                     rectanArray[rowIdx, 3] = String.Format("{0:c2}", futureValue);
                     rowIdx++;
@@ -151,7 +152,7 @@ namespace FutureValue
             int columnIdx;
             for (rowIdx = 0; rowIdx < rectanArray.GetLength(0); rowIdx++)
             {
-                for (columnIdx = 0; columnIdx < rectanArray.GetLength(0); columnIdx++)
+                for (columnIdx = 0; columnIdx < rectanArray.GetLength(1); columnIdx++)
                 {
                     if (String.IsNullOrEmpty(rectanArray[rowIdx, columnIdx]))
                         continue;

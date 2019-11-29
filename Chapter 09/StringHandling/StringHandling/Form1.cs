@@ -20,6 +20,10 @@ namespace StringHandling
         private void btnParseName_Click(object sender, System.EventArgs e)
         {
             // TODO: Add code to parse name
+            if(!String.IsNullOrEmpty(txtFullName.Text))
+            {
+
+            }
         }
 
         private void btnEditPhoneNumber_Click(object sender, System.EventArgs e)

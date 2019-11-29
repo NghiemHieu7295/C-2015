@@ -44,3 +44,11 @@ C:\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\St
 C:\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Form1.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.csproj.GenerateResource.Cache

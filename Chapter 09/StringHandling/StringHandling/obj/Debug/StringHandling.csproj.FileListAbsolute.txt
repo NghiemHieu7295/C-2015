@@ -52,3 +52,12 @@ C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringH
 C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Form1.resources
 C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Properties.Resources.resources
 C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.csproj.GenerateResource.Cache
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.exe.config
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.exe
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.pdb
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.exe
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\bin\Debug\StringHandling.pdb
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.csprojResolveAssemblyReference.cache
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Form1.resources
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.Properties.Resources.resources
+D:\murach\C# 2015\Exercise starts\Chapter 09\StringHandling\StringHandling\obj\Debug\StringHandling.csproj.GenerateResource.Cache

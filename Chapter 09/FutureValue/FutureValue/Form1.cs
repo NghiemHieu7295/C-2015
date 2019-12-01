@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace FutureValue
 {
@@ -25,11 +26,11 @@ namespace FutureValue
                 {
                     // TODO: use Parse methods that check for formatting characters
                     decimal monthlyInvestment =
-                        Convert.ToDecimal(txtMonthlyInvestment.Text);
+                        Decimal.Parse(txtMonthlyInvestment.Text, NumberStyles.Currency);
                     decimal interestRateYearly =
-                        Convert.ToDecimal(txtInterestRate.Text);
+                        Decimal.Parse(txtInterestRate.Text, NumberStyles.Number);
                     int years =
-                        Convert.ToInt32(txtYears.Text);
+                        Int32.Parse(txtYears.Text, NumberStyles.None);
 
                     int months = years * 12;
                     decimal interestRateMonthly = interestRateYearly / 12 / 100;
@@ -37,6 +38,9 @@ namespace FutureValue
                         monthlyInvestment, interestRateMonthly, months);
 
                     txtFutureValue.Text = futureValue.ToString("c");
+                    txtMonthlyInvestment.Text = String.Format("{0:c}", monthlyInvestment);
+                    txtInterestRate.Text = String.Format("{0:p2}", interestRateYearly / 100);
+                    txtYears.Text = String.Format("{0:d}", years);
                     txtMonthlyInvestment.Focus();
                 }
             }
@@ -53,7 +57,7 @@ namespace FutureValue
             return
                 // Validate the Monthly Investment text box
                 IsPresent(txtMonthlyInvestment, "Monthly Investment") &&
-                IsDecimal(txtMonthlyInvestment, "Monthly Investment") &&
+                IsCurrency(txtMonthlyInvestment, "Monthly Investment") &&
                 IsWithinRange(txtMonthlyInvestment, "Monthly Investment", 1, 1000) &&
 
                 // Validate the Yearly Interest Rate text box
@@ -82,7 +86,7 @@ namespace FutureValue
         public bool IsDecimal(TextBox textBox, string name)
         {
             decimal number = 0m;
-            if (Decimal.TryParse(textBox.Text, out number))
+            if (Decimal.TryParse(textBox.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out number))
             {
                 return true;
             }
@@ -95,12 +99,26 @@ namespace FutureValue
         }
 
         // TODO: add a new method to test for currency entries
+        public bool IsCurrency(TextBox textBox, string name)
+        {
+            decimal number = 0m;
+            if(Decimal.TryParse(textBox.Text, NumberStyles.Currency, CultureInfo.CurrentCulture, out number))
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show(name + " must be a currency value.", "Entry Error");
+                textBox.Focus();
+                return false;
+            }
+        }
 
         // TODO: improve this IsInt32 method
         public bool IsInt32(TextBox textBox, string name)
         {
             int number = 0;
-            if (Int32.TryParse(textBox.Text, out number))
+            if (Int32.TryParse(textBox.Text, NumberStyles.None, CultureInfo.CurrentCulture, out number))
             {
                 return true;
             }
@@ -115,7 +133,7 @@ namespace FutureValue
         public bool IsWithinRange(TextBox textBox, string name,
             decimal min, decimal max)
         {
-            decimal number = Convert.ToDecimal(textBox.Text);
+            decimal number = Decimal.Parse(textBox.Text, NumberStyles.Currency);
             if (number < min || number > max)
             {
                 MessageBox.Show(name + " must be between " + min +

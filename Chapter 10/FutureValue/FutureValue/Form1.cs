@@ -23,19 +23,20 @@ namespace FutureValue
             {
                 if (IsValidData())
                 {
+                    lstFutureValue.Items.Clear();
                     decimal monthlyInvestment =
                         Convert.ToDecimal(txtMonthlyInvestment.Text);
                     decimal yearlyInterestRate =
                         Convert.ToDecimal(txtInterestRate.Text);
                     int years =
-                        Convert.ToInt32(txtYears.Text);
+                        Convert.ToInt32(cboYears.Text);
 
                     int months = years * 12;
                     decimal monthlyInterestRate = yearlyInterestRate / 12 / 100;
-                    decimal futureValue = CalculateFutureValue(
+                    CalculateFutureValue(
                         monthlyInvestment, monthlyInterestRate, months);
 
-                    txtFutureValue.Text = futureValue.ToString("c");
+                    //txtFutureValue.Text = futureValue.ToString("c");
                     txtMonthlyInvestment.Focus();
                 }
             }
@@ -58,12 +59,12 @@ namespace FutureValue
                 // Validate the Yearly Interest Rate text box
                 IsPresent(txtInterestRate, "Yearly Interest Rate") &&
                 IsDecimal(txtInterestRate, "Yearly Interest Rate") &&
-                IsWithinRange(txtInterestRate, "Yearly Interest Rate", 1, 20) &&
+                IsWithinRange(txtInterestRate, "Yearly Interest Rate", 1, 20);
 
                 // Validate the Number of Years text box
-                IsPresent(txtYears, "Number of Years") &&
-                IsInt32(txtYears, "Number of Years") &&
-                IsWithinRange(txtYears, "Number of Years", 1, 40);
+                //IsPresent(txtYears, "Number of Years") &&
+                //IsInt32(txtYears, "Number of Years") &&
+                //IsWithinRange(txtYears, "Number of Years", 1, 40);
         }
 
         public bool IsPresent(TextBox textBox, string name)
@@ -122,16 +123,19 @@ namespace FutureValue
             return true;
         }
 
-        private decimal CalculateFutureValue(decimal monthlyInvestment,
+        private void CalculateFutureValue(decimal monthlyInvestment,
             decimal interestRateMonthly, int months)
         {
             decimal futureValue = 0m;
-            for (int i = 0; i < months; i++)
+            for (int i = 1; i <= months; i++)
             {
                 futureValue = (futureValue + monthlyInvestment)
                     * (1 + interestRateMonthly);
+                if (i % 12 == 0)
+                {
+                    lstFutureValue.Items.Add("Year " + i / 12 + ": " + futureValue.ToString("c2"));
+                }
             }
-            return futureValue;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -139,5 +143,14 @@ namespace FutureValue
             this.Close();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            for(int i = 1; i <= 20; i++)
+            {
+                cboYears.Items.Add(i);
+            }
+
+            cboYears.SelectedIndex = 2;
+        }
     }
 }

@@ -69,27 +69,6 @@ namespace DateHandling
             }
         }
 
-        private bool IsValid()
-        {
-            DateTime birthDate, futureDate;
-            if(!DateTime.TryParse(txtBirthDate.Text, out birthDate))
-            {
-                MessageBox.Show("Birth date is not valid format. Please enter valid format.", "Entry Error");
-                txtFutureDate.Focus();
-
-                return false;
-            }
-            else if(!DateTime.TryParse(txtFutureDate.Text, out futureDate))
-            {
-                MessageBox.Show("Future date is not valid format. Please enter valid format.", "Entry Error");
-                txtBirthDate.Focus();
-
-                return false;
-            }
-
-            return true;
-        }
-
         private void btnExit_Click(object sender, System.EventArgs e)
         {
             this.Close();

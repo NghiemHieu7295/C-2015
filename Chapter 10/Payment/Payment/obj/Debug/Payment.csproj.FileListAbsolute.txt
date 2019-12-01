@@ -36,3 +36,12 @@ C:\C# 2015\Exercise starts\Chapter 10\Payment\Payment\bin\Debug\Payment.pdb
 C:\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.csproj.GenerateResource.Cache
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\bin\Debug\Payment.exe.config
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\bin\Debug\Payment.exe
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\bin\Debug\Payment.pdb
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.frmCustomer.resources
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.frmPayment.resources
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.Properties.Resources.resources
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.csproj.GenerateResource.Cache
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.exe
+D:\murach\C# 2015\Exercise starts\Chapter 10\Payment\Payment\obj\Debug\Payment.pdb

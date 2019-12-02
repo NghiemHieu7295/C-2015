@@ -34,3 +34,12 @@ C:\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureVa
 C:\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\bin\Debug\FutureValue.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\bin\Debug\FutureValue.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\bin\Debug\FutureValue.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.Form1.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 11\FutureValue\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.Cache

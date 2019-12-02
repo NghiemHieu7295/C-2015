@@ -35,3 +35,13 @@ C:\Users\Anne.murach\Documents\C# 2012\Exercise starts\Chapter 12\CustomerMainte
 C:\Users\Anne.murach\Documents\C# 2012\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
 C:\Users\Anne.murach\Documents\C# 2012\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csproj.GenerateResource.Cache
 C:\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmAddCustomer.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmCustomers.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 12\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.pdb

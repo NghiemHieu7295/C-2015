@@ -33,7 +33,7 @@ namespace FutureValue
 				decimal futureValue = CalculateFutureValue(
 					monthlyInvestment, monthlyInterestRate, months);
 
-                txtFutureValue.Text = futureValue.ToString("p");
+                txtFutureValue.Text = futureValue.ToString("c");
                 txtMonthlyInvestment.Focus();
 		    }
 		    catch (Exception ex)

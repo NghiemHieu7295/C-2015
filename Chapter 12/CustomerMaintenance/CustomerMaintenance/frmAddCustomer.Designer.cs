@@ -40,51 +40,51 @@ namespace CustomerMaintenance
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(83, 76);
+            this.txtEmail.Location = new System.Drawing.Point(83, 70);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(176, 20);
+            this.txtEmail.Size = new System.Drawing.Size(176, 19);
             this.txtEmail.TabIndex = 15;
             this.txtEmail.Tag = "Email";
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(83, 44);
+            this.txtLastName.Location = new System.Drawing.Point(83, 41);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(176, 20);
+            this.txtLastName.Size = new System.Drawing.Size(176, 19);
             this.txtLastName.TabIndex = 14;
             this.txtLastName.Tag = "Last Name";
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(83, 12);
+            this.txtFirstName.Location = new System.Drawing.Point(83, 11);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(176, 20);
+            this.txtFirstName.Size = new System.Drawing.Size(176, 19);
             this.txtFirstName.TabIndex = 13;
             this.txtFirstName.Tag = "First Name";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(11, 76);
+            this.label4.Location = new System.Drawing.Point(11, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 23);
+            this.label4.Size = new System.Drawing.Size(72, 21);
             this.label4.TabIndex = 20;
             this.label4.Text = "Email:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(11, 44);
+            this.label3.Location = new System.Drawing.Point(11, 41);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 23);
+            this.label3.Size = new System.Drawing.Size(72, 21);
             this.label3.TabIndex = 19;
             this.label3.Text = "Last Name:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(11, 12);
+            this.label2.Location = new System.Drawing.Point(11, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(72, 21);
             this.label2.TabIndex = 18;
             this.label2.Text = "First Name:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -92,27 +92,29 @@ namespace CustomerMaintenance
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(182, 107);
+            this.btnCancel.Location = new System.Drawing.Point(182, 99);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 21);
             this.btnCancel.TabIndex = 17;
             this.btnCancel.Text = "&Cancel";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(101, 107);
+            this.btnSave.Location = new System.Drawing.Point(101, 99);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 21);
             this.btnSave.TabIndex = 16;
             this.btnSave.Text = "&Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // frmAddCustomer
             // 
             this.AcceptButton = this.btnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(272, 147);
+            this.ClientSize = new System.Drawing.Size(272, 136);
             this.ControlBox = false;
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtLastName);

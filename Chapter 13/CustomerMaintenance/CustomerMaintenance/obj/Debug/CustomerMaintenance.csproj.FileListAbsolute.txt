@@ -38,3 +38,6 @@ C:\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\ob
 C:\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmCustomers.resources
 C:\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 13\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.pdb

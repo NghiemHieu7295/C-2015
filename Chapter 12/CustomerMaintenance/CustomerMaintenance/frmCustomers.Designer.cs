@@ -37,51 +37,55 @@ namespace CustomerMaintenance
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(308, 62);
+            this.btnDelete.Location = new System.Drawing.Point(308, 57);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(75, 21);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "&Delete";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(308, 30);
+            this.btnAdd.Location = new System.Drawing.Point(308, 28);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(75, 21);
             this.btnAdd.TabIndex = 7;
             this.btnAdd.Text = "&Add";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lstCustomers
             // 
-            this.lstCustomers.Location = new System.Drawing.Point(12, 30);
+            this.lstCustomers.ItemHeight = 12;
+            this.lstCustomers.Location = new System.Drawing.Point(12, 28);
             this.lstCustomers.Name = "lstCustomers";
-            this.lstCustomers.Size = new System.Drawing.Size(280, 147);
+            this.lstCustomers.Size = new System.Drawing.Size(280, 136);
             this.lstCustomers.TabIndex = 5;
             // 
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(308, 94);
+            this.btnExit.Location = new System.Drawing.Point(308, 87);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(75, 21);
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "&Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 18);
+            this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Customers:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // frmCustomers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(403, 191);
+            this.ClientSize = new System.Drawing.Size(403, 176);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lstCustomers);
@@ -90,6 +94,7 @@ namespace CustomerMaintenance
             this.Name = "frmCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer Maintenance";
+            this.Load += new System.EventHandler(this.frmCustomers_Load);
             this.ResumeLayout(false);
 
         }

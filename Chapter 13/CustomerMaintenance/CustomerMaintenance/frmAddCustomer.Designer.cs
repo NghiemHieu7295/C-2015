@@ -41,6 +41,7 @@ namespace CustomerMaintenance
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(83, 76);
+            this.txtEmail.MaxLength = 30;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(176, 20);
             this.txtEmail.TabIndex = 15;
@@ -49,6 +50,7 @@ namespace CustomerMaintenance
             // txtLastName
             // 
             this.txtLastName.Location = new System.Drawing.Point(83, 44);
+            this.txtLastName.MaxLength = 30;
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(176, 20);
             this.txtLastName.TabIndex = 14;
@@ -57,6 +59,7 @@ namespace CustomerMaintenance
             // txtFirstName
             // 
             this.txtFirstName.Location = new System.Drawing.Point(83, 12);
+            this.txtFirstName.MaxLength = 30;
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(176, 20);
             this.txtFirstName.TabIndex = 13;

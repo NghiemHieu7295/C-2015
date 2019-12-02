@@ -17,19 +17,21 @@ namespace CustomerMaintenance
             InitializeComponent();
         }
 
-        private List<Customer> customers = null;
+        private CustomerList customerList = new CustomerList();
 
         private void frmCustomers_Load(object sender, EventArgs e)
         {
-            customers = CustomerDB.GetCustomers();
+            customerList.Changed += new CustomerList.ChangeHandler(this.DataChanged);
+            customerList.Fill();
             FillCustomerListBox();
         }
 
         private void FillCustomerListBox()
         {
             lstCustomers.Items.Clear();
-            foreach (Customer c in customers)
+            for (int i = 0; i < customerList.Count; i++)
             {
+                Customer c = customerList[i];
                 lstCustomers.Items.Add(c.GetDisplayText());
             }
         }
@@ -40,9 +42,7 @@ namespace CustomerMaintenance
             Customer customer = addCustomerForm.GetNewCustomer();
             if (customer != null)
             {
-                customers.Add(customer);
-                CustomerDB.SaveCustomers(customers);
-                FillCustomerListBox();
+                customerList = customerList + customer;
             }
         }
 
@@ -51,18 +51,22 @@ namespace CustomerMaintenance
             int i = lstCustomers.SelectedIndex;
             if (i != -1)
             {
-                Customer customer = (Customer)customers[i];
+                Customer customer = customerList[i];
                 string message = "Are you sure you want to delete "
                     + customer.FirstName + " " + customer.LastName + "?";
                 DialogResult button = MessageBox.Show(message, "Confirm Delete",
                     MessageBoxButtons.YesNo);
                 if (button == DialogResult.Yes)
                 {
-                    customers.Remove(customer);
-                    CustomerDB.SaveCustomers(customers);
-                    FillCustomerListBox();
+                    customerList = customerList - customer;
                 }
             }
+        }
+
+        private void DataChanged(CustomerList customers)
+        {
+            customers.Save();
+            FillCustomerListBox();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

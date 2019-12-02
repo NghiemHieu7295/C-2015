@@ -31,6 +31,10 @@ namespace CustomerMaintenance
 			}
 			set
 			{
+                if(value.Length > 30)
+                {
+                    throw new Exception("First name must be less or equal 30 characters.");
+                }
 				firstName = value;
 			}
 		}
@@ -43,6 +47,10 @@ namespace CustomerMaintenance
 			}
 			set
 			{
+                if(value.Length > 30)
+                {
+                    throw new Exception("Last name must be less or equal 30 characters.");
+                }
 				lastName = value;
 			}
 		}
@@ -55,6 +63,10 @@ namespace CustomerMaintenance
 			}
 			set
 			{
+                if(value.Length > 30)
+                {
+                    throw new Exception("Email must be less or equal 30 characters.");
+                }
 				email = value;
 			}
 		}

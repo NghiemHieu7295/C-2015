@@ -21,4 +21,25 @@
         <Email>efinch@csuks.edu</Email>
         <Company>CSUKS</Company>
     </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>Hieu</FirstName>
+        <LastName>Nghiem Manh</LastName>
+        <Email>nmh7295@gmail.com</Email>
+        <Company>Ominext Group</Company>
+    </Customer>
+    <Customer>
+        <Type>Retail</Type>
+        <FirstName>Tuan</FirstName>
+        <LastName>Nghiem Manh</LastName>
+        <Email>tuannm@ominext.com</Email>
+        <HomePhone>(082) 754-7252</HomePhone>
+    </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>Minh</FirstName>
+        <LastName>Nghiem Duc</LastName>
+        <Email>minhnd@gmail.com</Email>
+        <Company>Google</Company>
+    </Customer>
 </Customers>

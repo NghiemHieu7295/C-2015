@@ -80,7 +80,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetailCustomer.cs" />
     <Compile Include="Validator.cs" />
+    <Compile Include="WholesaleCustomer.cs" />
     <EmbeddedResource Include="frmAddRetail.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmAddRetail.cs</DependentUpon>

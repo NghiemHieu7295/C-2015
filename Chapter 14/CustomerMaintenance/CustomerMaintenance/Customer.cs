@@ -2,7 +2,7 @@ using System;
 
 namespace CustomerMaintenance
 {
-    public class Customer
+    public abstract class Customer
 	{
 		private string firstName;
 		private string lastName;
@@ -70,7 +70,6 @@ namespace CustomerMaintenance
 			}
 		}
 
-		public string GetDisplayText() => firstName + " " + lastName + ", " + email;
-		}
+        public abstract string GetDisplayText();
 	}
 }

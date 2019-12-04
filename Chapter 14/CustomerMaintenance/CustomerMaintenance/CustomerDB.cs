@@ -8,7 +8,7 @@ namespace CustomerMaintenance
     public class CustomerDB
 	{
 
-        private const string Path = @"C:\C# 2015\Files\CustomersX14.xml";
+        private const string Path = @"C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Files\CustomersX14.xml";
 
         public static List<Customer> GetCustomers()
         {

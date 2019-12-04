@@ -42,72 +42,72 @@ namespace CustomerMaintenance
             // 
             // txtHomePhone
             // 
-            this.txtHomePhone.Location = new System.Drawing.Point(81, 108);
+            this.txtHomePhone.Location = new System.Drawing.Point(81, 100);
             this.txtHomePhone.MaxLength = 50;
             this.txtHomePhone.Name = "txtHomePhone";
-            this.txtHomePhone.Size = new System.Drawing.Size(176, 20);
+            this.txtHomePhone.Size = new System.Drawing.Size(176, 19);
             this.txtHomePhone.TabIndex = 18;
             this.txtHomePhone.Tag = "Home Phone";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(9, 108);
+            this.label1.Location = new System.Drawing.Point(9, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 23);
+            this.label1.Size = new System.Drawing.Size(72, 21);
             this.label1.TabIndex = 24;
             this.label1.Text = "Home phone:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(81, 76);
+            this.txtEmail.Location = new System.Drawing.Point(81, 70);
             this.txtEmail.MaxLength = 50;
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(176, 20);
+            this.txtEmail.Size = new System.Drawing.Size(176, 19);
             this.txtEmail.TabIndex = 17;
             this.txtEmail.Tag = "Email";
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(81, 44);
+            this.txtLastName.Location = new System.Drawing.Point(81, 41);
             this.txtLastName.MaxLength = 50;
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(176, 20);
+            this.txtLastName.Size = new System.Drawing.Size(176, 19);
             this.txtLastName.TabIndex = 16;
             this.txtLastName.Tag = "Last Name";
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(81, 12);
+            this.txtFirstName.Location = new System.Drawing.Point(81, 11);
             this.txtFirstName.MaxLength = 50;
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(176, 20);
+            this.txtFirstName.Size = new System.Drawing.Size(176, 19);
             this.txtFirstName.TabIndex = 15;
             this.txtFirstName.Tag = "First Name";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(9, 76);
+            this.label4.Location = new System.Drawing.Point(9, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 23);
+            this.label4.Size = new System.Drawing.Size(72, 21);
             this.label4.TabIndex = 23;
             this.label4.Text = "Email:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(9, 44);
+            this.label3.Location = new System.Drawing.Point(9, 41);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 23);
+            this.label3.Size = new System.Drawing.Size(72, 21);
             this.label3.TabIndex = 22;
             this.label3.Text = "Last Name:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(9, 12);
+            this.label2.Location = new System.Drawing.Point(9, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(72, 21);
             this.label2.TabIndex = 21;
             this.label2.Text = "First Name:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,18 +115,18 @@ namespace CustomerMaintenance
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(182, 140);
+            this.btnCancel.Location = new System.Drawing.Point(182, 129);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 21);
             this.btnCancel.TabIndex = 20;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(101, 140);
+            this.btnSave.Location = new System.Drawing.Point(101, 129);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 21);
             this.btnSave.TabIndex = 19;
             this.btnSave.Text = "&Save";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -134,10 +134,10 @@ namespace CustomerMaintenance
             // frmAddRetail
             // 
             this.AcceptButton = this.btnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(276, 174);
+            this.ClientSize = new System.Drawing.Size(276, 168);
             this.ControlBox = false;
             this.Controls.Add(this.txtHomePhone);
             this.Controls.Add(this.label1);

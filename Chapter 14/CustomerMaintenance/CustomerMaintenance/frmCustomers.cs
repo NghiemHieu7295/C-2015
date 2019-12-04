@@ -29,9 +29,8 @@ namespace CustomerMaintenance
         private void FillCustomerListBox()
         {
             lstCustomers.Items.Clear();
-            for (int i = 0; i < customers.Count; i++)
+            foreach (Customer c in customers)
             {
-                Customer c = customers[i];
                 lstCustomers.Items.Add(c.GetDisplayText());
             }
         }
@@ -40,14 +39,22 @@ namespace CustomerMaintenance
         {
             Customer customer;
             // TODO: Add code that lets the user enter a new wholesale customer
+            frmAddWholesale wholeSaleForm = new frmAddWholesale();
+            customer = wholeSaleForm.GetNewCustomer();
             // and adds that customer to the customer list
+            if(null != customer)
+                customers.Add(customer);
         }
 
         private void btnAddRetail_Click(object sender, EventArgs e)
         {
             Customer customer;
             // TODO: Add code that lets the user enter a new retail customer
+            frmAddRetail retailForm = new frmAddRetail();
+            customer = retailForm.GetNewCustomer();
             // and adds that customer to the customer list
+            if(null != customer)
+                customers.Add(customer);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

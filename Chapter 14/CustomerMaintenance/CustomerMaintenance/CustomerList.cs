@@ -3,46 +3,44 @@ using System.Collections.Generic;
 
 namespace CustomerMaintenance
 {
-    public class CustomerList
+    public class CustomerList : List<Customer>
 	{
-		private List<Customer> customers;
-
         public delegate void ChangeHandler(CustomerList customers);
         public event ChangeHandler Changed;
 
-		public CustomerList()
-		{
-            customers = new List<Customer>();
-		}
-
-		public int Count => customers.Count;
-
-		public Customer this[int i]
+		public new Customer this[int i]
 		{
 			get
 			{
-				return customers[i];
+				return base[i];
 			}
 			set
 			{
-				customers[i] = value;
+				base[i] = value;
 				Changed(this);
 			}
 		}
 
-		public void Fill() => customers = CustomerDB.GetCustomers();
+		public void Fill()
+        {
+            List<Customer> customers = CustomerDB.GetCustomers();
+            foreach(Customer c in customers)
+            {
+                base.Add(c);
+            }
+        }
 
-		public void Save() => CustomerDB.SaveCustomers(customers);
+		public void Save() => CustomerDB.SaveCustomers(this);
 
-		public void Add(Customer customer)
+		public new void Add(Customer customer)
 		{
-			customers.Add(customer);
+            base.Add(customer);
 			Changed(this);
 		}
 
-		public void Remove(Customer customer)
+		public new void Remove(Customer customer)
 		{
-			customers.Remove(customer);
+			base.Remove(customer);
 			Changed(this);
 		}
 

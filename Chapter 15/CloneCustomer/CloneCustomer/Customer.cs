@@ -2,7 +2,7 @@ using System;
 
 namespace CloneCustomer
 {
-    public class Customer
+    public class Customer : ICloneable
 	{
 		private string firstName;
 		private string lastName;
@@ -57,5 +57,11 @@ namespace CloneCustomer
 
 		public string GetDisplayText() =>
 			firstName + " " + lastName + ", " + email;
+
+        public object Clone()
+        {
+            Customer newCustomer = new Customer(this.FirstName, this.LastName, this.Email);
+            return newCustomer;
+        }
     }
 }

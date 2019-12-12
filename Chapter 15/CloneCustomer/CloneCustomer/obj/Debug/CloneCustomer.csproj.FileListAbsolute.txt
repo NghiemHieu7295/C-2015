@@ -40,3 +40,12 @@ C:\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\bin\Debug\Clon
 C:\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\bin\Debug\CloneCustomer.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.Form1.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\obj\Debug\CloneCustomer.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\bin\Debug\CloneCustomer.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 15\CloneCustomer\CloneCustomer\bin\Debug\CloneCustomer.pdb

@@ -39,9 +39,9 @@ namespace CloneCustomer
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(292, 201);
+            this.btnExit.Location = new System.Drawing.Point(292, 186);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(75, 21);
             this.btnExit.TabIndex = 19;
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -49,50 +49,52 @@ namespace CloneCustomer
             // lblCustomer
             // 
             this.lblCustomer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCustomer.Location = new System.Drawing.Point(12, 9);
+            this.lblCustomer.Location = new System.Drawing.Point(12, 8);
             this.lblCustomer.Name = "lblCustomer";
-            this.lblCustomer.Size = new System.Drawing.Size(264, 40);
+            this.lblCustomer.Size = new System.Drawing.Size(264, 37);
             this.lblCustomer.TabIndex = 18;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(20, 57);
+            this.label1.Location = new System.Drawing.Point(20, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 23);
+            this.label1.Size = new System.Drawing.Size(48, 21);
             this.label1.TabIndex = 17;
             this.label1.Text = "Copies:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtCopies
             // 
-            this.txtCopies.Location = new System.Drawing.Point(76, 57);
+            this.txtCopies.Location = new System.Drawing.Point(76, 53);
             this.txtCopies.Name = "txtCopies";
-            this.txtCopies.Size = new System.Drawing.Size(48, 20);
+            this.txtCopies.Size = new System.Drawing.Size(48, 19);
             this.txtCopies.TabIndex = 16;
             this.txtCopies.Tag = "Copies";
             // 
             // btnClone
             // 
-            this.btnClone.Location = new System.Drawing.Point(140, 57);
+            this.btnClone.Location = new System.Drawing.Point(140, 53);
             this.btnClone.Name = "btnClone";
-            this.btnClone.Size = new System.Drawing.Size(75, 23);
+            this.btnClone.Size = new System.Drawing.Size(75, 21);
             this.btnClone.TabIndex = 15;
             this.btnClone.Text = "Clone";
+            this.btnClone.Click += new System.EventHandler(this.btnClone_Click);
             // 
             // lstCustomers
             // 
-            this.lstCustomers.Location = new System.Drawing.Point(12, 89);
+            this.lstCustomers.ItemHeight = 12;
+            this.lstCustomers.Location = new System.Drawing.Point(12, 82);
             this.lstCustomers.Name = "lstCustomers";
-            this.lstCustomers.Size = new System.Drawing.Size(264, 134);
+            this.lstCustomers.Size = new System.Drawing.Size(264, 124);
             this.lstCustomers.TabIndex = 14;
             // 
             // Form1
             // 
             this.AcceptButton = this.btnClone;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(387, 235);
+            this.ClientSize = new System.Drawing.Size(387, 217);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblCustomer);
             this.Controls.Add(this.label1);

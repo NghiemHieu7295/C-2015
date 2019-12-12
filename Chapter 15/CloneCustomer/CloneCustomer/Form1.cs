@@ -18,7 +18,8 @@ namespace CloneCustomer
         }
 
         private Customer customer;
-        private List<Customer> customers;
+        //private List<Customer> customers;
+        private CustomerList customerLst;
 
         private void Form1_Load(object sender, System.EventArgs e)
         {
@@ -28,8 +29,36 @@ namespace CloneCustomer
 
         private void btnExit_Click(object sender, System.EventArgs e)
         {
+            ResetListBoxCustomers();
             this.Close();
         }
 
+        private void btnClone_Click(object sender, EventArgs e)
+        {
+            if (Validator.IsPresent(txtCopies) && Validator.IsInt32(txtCopies))
+            {
+                customerLst = new CustomerList();
+
+                int copies = Convert.ToInt32(txtCopies.Text);
+
+                for (int i = 0; i < copies; i++)
+                {
+                    //customers.Add((Customer)customer.Clone());
+                    customerLst.Add((Customer)customer.Clone());
+                }
+
+                ResetListBoxCustomers();
+                foreach (Customer c in customerLst)
+                {
+                    lstCustomers.Items.Add(c.GetDisplayText());
+                }
+            }
+        }
+
+        private void ResetListBoxCustomers()
+        {
+            if (lstCustomers.Items.Count > 0)
+                lstCustomers.Items.Clear();
+        }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,7 +16,7 @@ namespace CustomerMaintenance
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCustomerMaintenance());
+            Application.Run(new Form1());
         }
     }
 }

@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="CustomerDB.cs" />
     <Compile Include="frmCustomerMaintenance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +87,7 @@
     <Compile Include="frmAddModifyCustomer.Designer.cs">
       <DependentUpon>frmAddModifyCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="MMABooksDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAddModifyCustomer.resx">
@@ -117,6 +119,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="State.cs" />
+    <Compile Include="StateDB.cs" />
     <Compile Include="Validator.cs" />
   </ItemGroup>
   <ItemGroup>

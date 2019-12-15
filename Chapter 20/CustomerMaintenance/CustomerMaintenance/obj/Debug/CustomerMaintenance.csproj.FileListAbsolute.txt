@@ -39,3 +39,15 @@ C:\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\ob
 C:\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmCustomerMaintenance.resources
 C:\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csproj.GenerateResource.Cache
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe.config
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.exe
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.pdb
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\bin\Debug\MMABooks.mdf
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\bin\Debug\MMABooks_log.ldf
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.exe
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\bin\Debug\CustomerMaintenance.pdb
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csprojResolveAssemblyReference.cache
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmAddModifyCustomer.resources
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.frmCustomerMaintenance.resources
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
+D:\murach\C# 2015\Exercise starts\Chapter 20\CustomerMaintenance\CustomerMaintenance\obj\Debug\CustomerMaintenance.csproj.GenerateResource.Cache

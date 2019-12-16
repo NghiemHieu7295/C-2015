@@ -13,7 +13,7 @@ namespace CustomerMaintenance
 	{
         // TODO: Add the directory and path here
         private static string directory = @"C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Files\";
-        private static string path = directory + "Customers.txt";
+        private static string path = directory + "Customers.dat";
 
         public static void SaveCustomers(List<Customer> customers)
 		{
@@ -26,12 +26,12 @@ namespace CustomerMaintenance
                 File.Create(path);
 
             FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Write);
-            StreamWriter textOut = new StreamWriter(fs);
+            BinaryWriter textOut = new BinaryWriter(fs);
             foreach(Customer c in customers)
             {
-                textOut.Write(c.FirstName + "|");
-                textOut.Write(c.LastName + "|");
-                textOut.WriteLine(c.Email);
+                textOut.Write(c.FirstName);
+                textOut.Write(c.LastName);
+                textOut.Write(c.Email);
             }
 
             textOut.Close();
@@ -51,15 +51,13 @@ namespace CustomerMaintenance
                 File.Create(path);
 
             FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read);
-            StreamReader textIn = new StreamReader(fs);
-            while(textIn.Peek() != -1)
+            BinaryReader textIn = new BinaryReader(fs);
+            while(textIn.PeekChar() != -1)
             {
-                string row = textIn.ReadLine();
-                string[] columns = row.Split('|');
                 Customer customer = new Customer();
-                customer.FirstName = columns[0];
-                customer.LastName = columns[1];
-                customer.Email = columns[2];
+                customer.FirstName = textIn.ReadString();
+                customer.LastName = textIn.ReadString();
+                customer.Email = textIn.ReadString();
                 customers.Add(customer);
             }
 

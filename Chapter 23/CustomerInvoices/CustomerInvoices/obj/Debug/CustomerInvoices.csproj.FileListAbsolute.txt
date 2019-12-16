@@ -49,3 +49,12 @@ C:\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\bin\Debu
 C:\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.Form1.resources
 C:\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\bin\Debug\CustomerInvoices.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\bin\Debug\CustomerInvoices.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\bin\Debug\CustomerInvoices.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.Form1.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 23\CustomerInvoices\CustomerInvoices\obj\Debug\CustomerInvoices.csproj.GenerateResource.Cache

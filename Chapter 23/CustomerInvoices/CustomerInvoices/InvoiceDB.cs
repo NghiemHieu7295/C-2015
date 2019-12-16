@@ -9,7 +9,7 @@ namespace CustomerInvoices
 {
     public static class InvoiceDB
     {
-        private const string Dir = @"C:\C# 2015\Files\";
+        private const string Dir = @"C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Files\";
         private const string Path = Dir + "Invoices.txt";
 
         public static List<Invoice> GetInvoices()

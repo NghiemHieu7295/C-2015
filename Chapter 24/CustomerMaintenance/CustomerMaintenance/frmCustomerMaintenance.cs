@@ -38,6 +38,9 @@ namespace CustomerMaintenance
                 // Step 6
                 // Code a query to retrieve the selected customer
                 // and store the Customer object in the class variable.
+                selectedCustomer = (from customer in MMABooksEntity.mmaBooks.Customers
+                                   where customer.CustomerID == CustomerID
+                                   select customer).SingleOrDefault();
 
                 if (selectedCustomer == null)
                 {
@@ -50,6 +53,10 @@ namespace CustomerMaintenance
                 {
                     // Step 7
                     // Add code to load the State object for the customer.
+                    if(!MMABooksEntity.mmaBooks.Entry(selectedCustomer).Reference("State").IsLoaded)
+                    {
+                        MMABooksEntity.mmaBooks.Entry(selectedCustomer).Reference("State").Load();
+                    }
 
                     this.DisplayCustomer();
                 }
@@ -126,6 +133,8 @@ namespace CustomerMaintenance
                     // Step 18
                     // Mark the row for deletion.
                     // Update the database.
+                    MMABooksEntity.mmaBooks.Customers.Remove(selectedCustomer);
+                    MMABooksEntity.mmaBooks.SaveChanges();
 
                     txtCustomerID.Text = "";
                     this.ClearControls();
@@ -133,7 +142,10 @@ namespace CustomerMaintenance
                 // Step 22 (Optional)
                 // Add concurrency error handling.
                 // Place the catch block before the one for a generic exception.
-
+                catch(DbUpdateConcurrencyException ex)
+                {
+                    ex.Entries.Single().Reload();
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, ex.GetType().ToString());

@@ -87,6 +87,7 @@
     <Compile Include="frmCustomerMaintenance.Designer.cs">
       <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
     </Compile>
+    <Compile Include="MMABooksEntity.cs" />
     <Compile Include="MMABooksModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

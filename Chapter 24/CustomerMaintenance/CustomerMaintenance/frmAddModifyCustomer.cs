@@ -45,6 +45,13 @@ namespace CustomerMaintenance
                 // Code a query to retrieve the required information from
                 // the States table, and sort the results by state name.
                 // Bind the State combo box to the query results.
+                var stateLst = from state in MMABooksEntity.mmaBooks.States
+                               orderby state.StateName
+                               select state;
+
+                this.cboStates.DataSource = stateLst.ToList();
+                this.cboStates.ValueMember = "StateCode";
+                this.cboStates.DisplayMember = "StateName";
             }
             catch (Exception ex)
             {
@@ -71,10 +78,12 @@ namespace CustomerMaintenance
                     this.PutCustomerData(customer);
                     // Step 12
                     // Add the new vendor to the collection of vendors.
+                    MMABooksEntity.mmaBooks.Customers.Add(customer);
 
                     try
                     {
                         // Update the database.
+                        MMABooksEntity.mmaBooks.SaveChanges();
 
                         this.DialogResult = DialogResult.OK;
                     }
@@ -90,13 +99,18 @@ namespace CustomerMaintenance
                     {
                         // Step 15
                         // Update the database.
+                        MMABooksEntity.mmaBooks.SaveChanges();
 
                         this.DialogResult = DialogResult.OK;
                     }
                     // Step 22 (Optional)
                     // Add concurrency error handling.
                     // Place the catch block before the one for a generic exception.
-
+                    catch(DbUpdateConcurrencyException ex)
+                    {
+                        var entry = ex.Entries.Single();
+                        entry.OriginalValues.SetValues(entry.GetDatabaseValues());
+                    }
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message, ex.GetType().ToString());

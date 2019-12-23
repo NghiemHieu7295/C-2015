@@ -26,3 +26,14 @@ C:\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculat
 C:\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.frmMain.resources
 C:\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.Properties.Resources.resources
 C:\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\bin\Debug\FinancialCalculations.exe.config
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\bin\Debug\FinancialCalculations.exe
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\bin\Debug\FinancialCalculations.pdb
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.frmMain.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.Properties.Resources.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.csproj.GenerateResource.Cache
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.frmDepreciation.resources
+C:\Users\Ominext\Documents\Hieu\Books\C# 2015\Exercise starts\Chapter 25\FinancialCalculationsSDI\FinancialCalculations\obj\Debug\FinancialCalculations.frmFutureValue.resources

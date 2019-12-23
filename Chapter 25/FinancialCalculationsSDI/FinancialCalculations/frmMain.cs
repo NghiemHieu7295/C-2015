@@ -16,5 +16,22 @@ namespace FinancialCalculations
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void btnFutureValue_Click(object sender, EventArgs e)
+        {
+            frmFutureValue futureValueForm = new frmFutureValue();
+            futureValueForm.Show();
+        }
+
+        private void btnCalculateDepreciation_Click(object sender, EventArgs e)
+        {
+            frmDepreciation depreciationForm = new frmDepreciation();
+            depreciationForm.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
 }
